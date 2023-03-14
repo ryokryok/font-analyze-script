@@ -1,7 +1,10 @@
 {
-  "name": "website-font",
+  "name": "font-analyze-script",
   "version": "1.0.0",
   "main": "index.js",
+  "author": {
+    "name": "Mr_ozin"
+  },
   "license": "MIT",
   "scripts": {
     "start": "ts-node index.ts"
