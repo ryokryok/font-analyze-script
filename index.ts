@@ -22,7 +22,7 @@ const main = async (targetUrl: string) => {
       return getComputedStyle(document.body).fontFamily;
     });
 
-    console.log(fontFamily.split(", "));
+    console.log(fontFamily);
 
     await browser.close();
   } catch (error) {
