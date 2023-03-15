@@ -7,9 +7,8 @@
 import puppeteer from "puppeteer";
 import { program } from "commander";
 
-program.version("0.0.1", "-v", "--version");
 program.parse(process.argv);
-const options = program.opts();
+
 const main = async (targetUrl: string) => {
   try {
     const url = new URL(targetUrl);
